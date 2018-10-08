@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+h1, h3 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+p {
+
+}
+
+.sections {
+    text-align: left;
+    margin: 20px 300px 20px 300px;
+}
+
+#bulbs {
+    background-color: #F8F8F8;
+    padding: 20px 20px 20px 50px;
+
+
+}
+
+#payment {
+    background-color: #F8F8F8;
+    padding: 20px 20px 20px 50px;
+
+}
