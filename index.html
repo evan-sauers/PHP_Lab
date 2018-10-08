@@ -3,24 +3,33 @@
     <head>
         <meta charset="utf-8">
         <title>PHP Lab</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:100" rel="stylesheet">
+
     </head>
     
     <body>
-        <h1>Purchase Light Bulbs</h1>
+        <h1>Quality Light Bulbs</h1>
         
         <form action="http://localhost/Sauers_Lab_5/action.php" method="post">
-        <p>Name: <input type="text" name="name"></p>
-        <h4>Light Bulbs:</h4>
-        <p><input type="checkbox" name="lightOne"> Four 25-watt light bulbs</p>
-        <p><input type="checkbox" name="lightTwo"> Eight 25-watt light bulbs</p>
-        <p><input type="checkbox" name="lightThree"> Four 25-watt long-life light bulbs</p>
-        <p><input type="checkbox" name="lightFour"> Eight 25-watt long-life light bulbs</p>
-        
-        <h4>Payment Method:</h4>
-        <p><input type="radio" name="payment" value="Visa"> Visa</p>
-        <p><input type="radio" name="payment" value="MasterCard"> MasterCard</p>
-        <p><input type="radio" name="payment" value="Discover"> Discover</p>
+        <p>Full Name: <input type="text" name="name"></p>
+        <div class="sections">
+            <div id="bulbs">
+                <h3>Light Bulbs:</h3>
+                <p><input type="checkbox" name="lightOne"> Four 25-watt light bulbs</p>
+                <p><input type="checkbox" name="lightTwo"> Eight 25-watt light bulbs</p>
+                <p><input type="checkbox" name="lightThree"> Four 25-watt long-life light bulbs</p>
+                <p><input type="checkbox" name="lightFour"> Eight 25-watt long-life light bulbs</p>
+            </div>
+            <div id="payment">
+                <h3>Payment Method:</h3>
+                <p><input type="radio" name="payment" value="Visa"> Visa</p>
+                <p><input type="radio" name="payment" value="MasterCard"> MasterCard</p>
+                <p><input type="radio" name="payment" value="Discover"> Discover</p>
+            </div>
+        </div>
         <input type="submit" value="Submit">
         </form>
+            
     </body>
 </html>
