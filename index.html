@@ -5,15 +5,14 @@
         <title>PHP Lab</title>
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:100" rel="stylesheet">
-
     </head>
     
     <body>
         <h1>Quality Light Bulbs</h1>
         
-        <form action="http://localhost/Sauers_Lab_5/action.php" method="post">
-        <p>Full Name: <input type="text" name="name"></p>
+        <form action="http://localhost/PHP_Lab/action.php" method="post">
         <div class="sections">
+            <p>Full Name: <input type="text" name="name"></p>
             <div id="bulbs">
                 <h3>Light Bulbs:</h3>
                 <p><input type="checkbox" name="lightOne"> Four 25-watt light bulbs</p>
@@ -27,8 +26,8 @@
                 <p><input type="radio" name="payment" value="MasterCard"> MasterCard</p>
                 <p><input type="radio" name="payment" value="Discover"> Discover</p>
             </div>
+        <input class="button" type="submit" value="Submit">
         </div>
-        <input type="submit" value="Submit">
         </form>
             
     </body>

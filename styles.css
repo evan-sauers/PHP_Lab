@@ -1,9 +1,13 @@
 body {
+    background-image: url("bulbs.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
     text-align: center;
 }
 
 h1, h3 {
     font-family: 'Encode Sans Condensed', sans-serif;
+    color: white;
 }
 
 p {
@@ -11,19 +15,20 @@ p {
 }
 
 .sections {
+    padding: 20px 20px 20px 50px;
+    background-color: rgba(255, 255, 255, 0.6);
     text-align: left;
     margin: 20px 300px 20px 300px;
 }
 
 #bulbs {
-    background-color: #F8F8F8;
-    padding: 20px 20px 20px 50px;
-
 
 }
 
 #payment {
-    background-color: #F8F8F8;
-    padding: 20px 20px 20px 50px;
 
+}
+
+.button {
+    float: right;
 }
